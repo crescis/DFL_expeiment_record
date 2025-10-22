@@ -1,0 +1,76 @@
+{
+    "global_accuracy_history": [
+        7.83,
+        8.6,
+        12.46,
+        9.0,
+        21.56
+    ],
+    "local_accuracy_histories": {
+        "0": [
+            33.599998474121094,
+            62.5,
+            76.01666259765625,
+            80.71666717529297,
+            75.29999542236328
+        ],
+        "1": [
+            36.06666564941406,
+            65.19999694824219,
+            78.06666564941406,
+            83.73332977294922,
+            87.46666717529297
+        ],
+        "2": [
+            37.233333587646484,
+            67.1500015258789,
+            77.53333282470703,
+            81.01666259765625,
+            72.75
+        ],
+        "3": [
+            35.56666564941406,
+            59.666664123535156,
+            74.01666259765625,
+            78.78333282470703,
+            75.46666717529297
+        ]
+    },
+    "config": {
+        "data_path": "./datasets",
+        "client_num": 5,
+        "subset_frac": 1.0,
+        "lr": 0.01,
+        "epochs": 300,
+        "local_epochs": 1,
+        "bs": 32,
+        "gamma": 0,
+        "initial_neighbor_rate": 1,
+        "communication_rate": 0.6,
+        "communication_periods": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "test_batch_size": 32,
+        "s_ratio": 1.0,
+        "min_dense_params": 2048,
+        "dense_keywords": [
+            "bn",
+            "running_mean",
+            "running_var",
+            "num_batches_tracked",
+            "conv1",
+            "fc."
+        ],
+        "use_fedbn": false,
+        "lr_decay_step": 10,
+        "lr_decay_beta": 0.9
+    },
+    "run_params": {
+        "client_num": 4,
+        "local_epochs": 2
+    }
+}

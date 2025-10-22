@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\importlib\metadata\__init__.py", line 889, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\pathlib.py", line 1132, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\pathlib.py", line 1117, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Kong\\.conda\\envs\\srdfl\\lib\\site-packages\\typing_extensions-4.15.0.dist-info\\entry_points.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Kong\Desktop\沙珊\decentralized_federated_learning-master\decentralized_federated_learning-master\train\train_horizontal.py", line 2, in <module>
+    from data.dataloader import DataLoader as DL
+  File "C:\Users\Kong\Desktop\沙珊\decentralized_federated_learning-master\decentralized_federated_learning-master\data\dataloader.py", line 1, in <module>
+    import torchvision  # 用于导入数据集
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\site-packages\torchvision\__init__.py", line 5, in <module>
+    import torch
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\site-packages\torch\__init__.py", line 2866, in <module>
+    _import_device_backends()
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\site-packages\torch\__init__.py", line 2816, in _import_device_backends
+    backend_extensions = entry_points(group=group_name)
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\importlib\metadata\__init__.py", line 971, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\importlib\metadata\__init__.py", line 429, in load
+    ordered = sorted(eps, key=by_group)
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\importlib\metadata\__init__.py", line 969, in <genexpr>
+    dist.entry_points for dist in unique(distributions())
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\importlib\metadata\__init__.py", line 601, in entry_points
+    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+  File "C:\Users\Kong\.conda\envs\srdfl\lib\importlib\metadata\__init__.py", line 889, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+KeyboardInterrupt
+^C

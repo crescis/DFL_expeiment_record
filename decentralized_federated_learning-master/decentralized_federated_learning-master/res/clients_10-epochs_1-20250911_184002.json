@@ -1,0 +1,94 @@
+{
+    "global_accuracy_history": [
+        10.0,
+        10.0
+    ],
+    "local_accuracy_histories": {
+        "0": [
+            35.25,
+            43.66666793823242
+        ],
+        "1": [
+            32.56666564941406,
+            40.633331298828125
+        ],
+        "2": [
+            33.5,
+            41.41666793823242
+        ],
+        "3": [
+            33.83333206176758,
+            40.733333587646484
+        ],
+        "4": [
+            31.833332061767578,
+            43.66666793823242
+        ],
+        "5": [
+            32.21666717529297,
+            39.54999923706055
+        ],
+        "6": [
+            30.083332061767578,
+            38.599998474121094
+        ],
+        "7": [
+            32.53333282470703,
+            39.91666793823242
+        ],
+        "8": [
+            34.08333206176758,
+            41.58333206176758
+        ],
+        "9": [
+            33.61666488647461,
+            41.66666793823242
+        ]
+    },
+    "config": {
+        "data_path": "./datasets",
+        "split_mode": "iid",
+        "dominant_frac": 0.7,
+        "client_num": 10,
+        "subset_frac": 1,
+        "lr": 0.01,
+        "epochs": 2,
+        "local_epochs": 1,
+        "bs": 64,
+        "gamma": 0,
+        "initial_neighbor_rate": 1.0,
+        "communication_rate": 0.8,
+        "communication_periods": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "test_batch_size": 32,
+        "s_ratio": 0.3,
+        "min_dense_params": 2048,
+        "dense_keywords": [
+            "bn",
+            "running_mean",
+            "running_var",
+            "num_batches_tracked",
+            "conv1",
+            "fc."
+        ],
+        "use_fedbn": "true",
+        "lr_decay_step": 10,
+        "lr_decay_beta": 0.9
+    },
+    "elapsed_seconds": 72.48302793502808,
+    "elapsed_hms": "0:01:12",
+    "run_params": {
+        "client_num": 10,
+        "local_epochs": 1
+    }
+}

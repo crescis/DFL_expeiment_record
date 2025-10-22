@@ -1,0 +1,38 @@
+# 横向联邦
+horizontal_fl:
+  # 数据集存放路径（推荐项目内相对路径）
+  data_path: "./datasets"           # 或 "D:/project/.../datasets"
+  split_mode: iid
+  batch_select: random   # random / periodic
+  client_num: 10
+  subset_frac: 1
+  classes_per_client: 4
+  lr: 0.01
+  epochs: 100
+  local_epochs: 1  # FedAvg本地训练次数
+  bs: 256  #128
+  gamma: 0
+  initial_neighbor_rate: 1  # N_i
+  participation_rate: 0.6  # N_i^k
+  communication_rounds: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  test_batch_size: 1024
+  # 通信压缩相关
+  s_ratio: 1.0         # Top-s比例/transmission rate，取值 0.0~1.0；non-IID 建议从 0.3~0.5 试起
+  min_dense_params: 2048  # 小于该参数量的层走密集  
+  dense_keywords: ["bn", "running_mean", "running_var", "num_batches_tracked", "conv1", "fc."]
+  use_fedbn: false   # true=启用FedBN（BN层不聚合/不稀疏化）；false=按普通FedAvg处理BN
+  # step decay
+  lr_decay_step: 10  
+  lr_decay_beta: 0.9   
+
+  
+
+# 纵向联邦
+vertical_fl:
+  data_path: "./data/boston/boston_housing_data.csv"
+  client_num: 3
+  sample_rate: 1
+  lr: 0.015
+  epochs: 500
+  bs: 32
+  gamma: 0

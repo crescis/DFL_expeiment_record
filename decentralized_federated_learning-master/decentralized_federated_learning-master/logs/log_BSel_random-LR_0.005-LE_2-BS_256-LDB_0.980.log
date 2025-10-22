@@ -1,0 +1,915 @@
+client 0 initial number of neighbors: 9
+client 1 initial number of neighbors: 9
+client 2 initial number of neighbors: 9
+client 3 initial number of neighbors: 9
+client 4 initial number of neighbors: 9
+client 5 initial number of neighbors: 9
+client 6 initial number of neighbors: 9
+client 7 initial number of neighbors: 9
+client 8 initial number of neighbors: 9
+client 9 initial number of neighbors: 9
+
+ training begins! (epoch-by-epoch parallel mode with global evaluation)
+
+--- global epoch 1/60 ---
+--- client 0 in epoch 1 [aggregation then communication] ---
+--- client 1 in epoch 1 [aggregation then communication] ---
+--- client 2 in epoch 1 [aggregation then communication] ---
+--- client 3 in epoch 1 [aggregation then communication] ---
+--- client 4 in epoch 1 [aggregation then communication] ---
+--- client 5 in epoch 1 [aggregation then communication] ---
+--- client 6 in epoch 1 [aggregation then communication] ---
+--- client 7 in epoch 1 [aggregation then communication] ---
+--- client 8 in epoch 1 [aggregation then communication] ---
+--- client 9 in epoch 1 [aggregation then communication] ---
+--- global epoch 1: global acc = 10.00% ---
+--- local epoch 1: local acc = [C0:27.36%, C1:26.04%, C2:27.10%, C3:27.75%, C4:27.59%, C5:28.55%, C6:27.53%, C7:28.86%, C8:26.57%, C9:27.32%] ---
+
+--- global epoch 2/60 ---
+--- At epoch 2, learning rate decays to 0.004900 ---
+--- client 0 in epoch 2 [aggregation then communication] ---
+--- client 1 in epoch 2 [aggregation then communication] ---
+--- client 2 in epoch 2 [aggregation then communication] ---
+--- client 3 in epoch 2 [aggregation then communication] ---
+--- client 4 in epoch 2 [aggregation then communication] ---
+--- client 5 in epoch 2 [aggregation then communication] ---
+--- client 6 in epoch 2 [aggregation then communication] ---
+--- client 7 in epoch 2 [aggregation then communication] ---
+--- client 8 in epoch 2 [aggregation then communication] ---
+--- client 9 in epoch 2 [aggregation then communication] ---
+--- global epoch 2: global acc = 20.03% ---
+--- local epoch 2: local acc = [C0:30.07%, C1:29.25%, C2:30.38%, C3:28.34%, C4:28.16%, C5:28.08%, C6:28.25%, C7:29.92%, C8:28.61%, C9:31.07%] ---
+
+--- global epoch 3/60 ---
+--- At epoch 3, learning rate decays to 0.004802 ---
+--- client 0 in epoch 3 [aggregation then communication] ---
+--- client 1 in epoch 3 [aggregation then communication] ---
+--- client 2 in epoch 3 [aggregation then communication] ---
+--- client 3 in epoch 3 [aggregation then communication] ---
+--- client 4 in epoch 3 [aggregation then communication] ---
+--- client 5 in epoch 3 [aggregation then communication] ---
+--- client 6 in epoch 3 [aggregation then communication] ---
+--- client 7 in epoch 3 [aggregation then communication] ---
+--- client 8 in epoch 3 [aggregation then communication] ---
+--- client 9 in epoch 3 [aggregation then communication] ---
+--- global epoch 3: global acc = 42.87% ---
+--- local epoch 3: local acc = [C0:37.60%, C1:37.72%, C2:36.58%, C3:35.33%, C4:36.40%, C5:37.70%, C6:36.35%, C7:36.97%, C8:36.02%, C9:37.02%] ---
+
+--- global epoch 4/60 ---
+--- At epoch 4, learning rate decays to 0.004706 ---
+--- client 0 in epoch 4 [aggregation then communication] ---
+--- client 1 in epoch 4 [aggregation then communication] ---
+--- client 2 in epoch 4 [aggregation then communication] ---
+--- client 3 in epoch 4 [aggregation then communication] ---
+--- client 4 in epoch 4 [aggregation then communication] ---
+--- client 5 in epoch 4 [aggregation then communication] ---
+--- client 6 in epoch 4 [aggregation then communication] ---
+--- client 7 in epoch 4 [aggregation then communication] ---
+--- client 8 in epoch 4 [aggregation then communication] ---
+--- client 9 in epoch 4 [aggregation then communication] ---
+--- global epoch 4: global acc = 50.12% ---
+--- local epoch 4: local acc = [C0:49.12%, C1:48.72%, C2:49.15%, C3:48.54%, C4:48.98%, C5:48.88%, C6:48.67%, C7:48.36%, C8:48.18%, C9:49.77%] ---
+
+--- global epoch 5/60 ---
+--- At epoch 5, learning rate decays to 0.004612 ---
+--- client 0 in epoch 5 [aggregation then communication] ---
+--- client 1 in epoch 5 [aggregation then communication] ---
+--- client 2 in epoch 5 [aggregation then communication] ---
+--- client 3 in epoch 5 [aggregation then communication] ---
+--- client 4 in epoch 5 [aggregation then communication] ---
+--- client 5 in epoch 5 [aggregation then communication] ---
+--- client 6 in epoch 5 [aggregation then communication] ---
+--- client 7 in epoch 5 [aggregation then communication] ---
+--- client 8 in epoch 5 [aggregation then communication] ---
+--- client 9 in epoch 5 [aggregation then communication] ---
+--- global epoch 5: global acc = 61.61% ---
+--- local epoch 5: local acc = [C0:55.78%, C1:55.26%, C2:56.24%, C3:56.02%, C4:55.42%, C5:55.28%, C6:55.27%, C7:55.52%, C8:55.67%, C9:56.61%] ---
+
+--- global epoch 6/60 ---
+--- At epoch 6, learning rate decays to 0.004520 ---
+--- client 0 in epoch 6 [aggregation then communication] ---
+--- client 1 in epoch 6 [aggregation then communication] ---
+--- client 2 in epoch 6 [aggregation then communication] ---
+--- client 3 in epoch 6 [aggregation then communication] ---
+--- client 4 in epoch 6 [aggregation then communication] ---
+--- client 5 in epoch 6 [aggregation then communication] ---
+--- client 6 in epoch 6 [aggregation then communication] ---
+--- client 7 in epoch 6 [aggregation then communication] ---
+--- client 8 in epoch 6 [aggregation then communication] ---
+--- client 9 in epoch 6 [aggregation then communication] ---
+--- global epoch 6: global acc = 65.25% ---
+--- local epoch 6: local acc = [C0:62.51%, C1:62.77%, C2:62.43%, C3:61.70%, C4:62.04%, C5:62.23%, C6:62.68%, C7:62.16%, C8:62.82%, C9:62.67%] ---
+
+--- global epoch 7/60 ---
+--- At epoch 7, learning rate decays to 0.004429 ---
+--- client 0 in epoch 7 [aggregation then communication] ---
+--- client 1 in epoch 7 [aggregation then communication] ---
+--- client 2 in epoch 7 [aggregation then communication] ---
+--- client 3 in epoch 7 [aggregation then communication] ---
+--- client 4 in epoch 7 [aggregation then communication] ---
+--- client 5 in epoch 7 [aggregation then communication] ---
+--- client 6 in epoch 7 [aggregation then communication] ---
+--- client 7 in epoch 7 [aggregation then communication] ---
+--- client 8 in epoch 7 [aggregation then communication] ---
+--- client 9 in epoch 7 [aggregation then communication] ---
+--- global epoch 7: global acc = 67.49% ---
+--- local epoch 7: local acc = [C0:65.89%, C1:65.26%, C2:65.71%, C3:66.51%, C4:66.32%, C5:66.62%, C6:66.55%, C7:66.39%, C8:66.47%, C9:66.53%] ---
+
+--- global epoch 8/60 ---
+--- At epoch 8, learning rate decays to 0.004341 ---
+--- client 0 in epoch 8 [aggregation then communication] ---
+--- client 1 in epoch 8 [aggregation then communication] ---
+--- client 2 in epoch 8 [aggregation then communication] ---
+--- client 3 in epoch 8 [aggregation then communication] ---
+--- client 4 in epoch 8 [aggregation then communication] ---
+--- client 5 in epoch 8 [aggregation then communication] ---
+--- client 6 in epoch 8 [aggregation then communication] ---
+--- client 7 in epoch 8 [aggregation then communication] ---
+--- client 8 in epoch 8 [aggregation then communication] ------ client 9 in epoch 8 [aggregation then communication] ---
+
+--- global epoch 8: global acc = 74.57% ---
+--- local epoch 8: local acc = [C0:70.08%, C1:69.60%, C2:69.95%, C3:70.13%, C4:69.94%, C5:70.63%, C6:71.38%, C7:70.07%, C8:70.10%, C9:70.96%] ---
+
+--- global epoch 9/60 ---
+--- At epoch 9, learning rate decays to 0.004254 ---
+--- client 0 in epoch 9 [aggregation then communication] ---
+--- client 1 in epoch 9 [aggregation then communication] ---
+--- client 2 in epoch 9 [aggregation then communication] ---
+--- client 3 in epoch 9 [aggregation then communication] ---
+--- client 4 in epoch 9 [aggregation then communication] ---
+--- client 5 in epoch 9 [aggregation then communication] ---
+--- client 6 in epoch 9 [aggregation then communication] ---
+--- client 7 in epoch 9 [aggregation then communication] ---
+--- client 8 in epoch 9 [aggregation then communication] ------ client 9 in epoch 9 [aggregation then communication] ---
+
+--- global epoch 9: global acc = 77.30% ---
+--- local epoch 9: local acc = [C0:74.47%, C1:74.72%, C2:73.80%, C3:74.01%, C4:74.89%, C5:75.22%, C6:74.65%, C7:74.17%, C8:74.94%, C9:74.65%] ---
+
+--- global epoch 10/60 ---
+--- At epoch 10, learning rate decays to 0.004169 ---
+--- client 0 in epoch 10 [aggregation then communication] ---
+--- client 1 in epoch 10 [aggregation then communication] ---
+--- client 2 in epoch 10 [aggregation then communication] ---
+--- client 3 in epoch 10 [aggregation then communication] ---
+--- client 4 in epoch 10 [aggregation then communication] ---
+--- client 5 in epoch 10 [aggregation then communication] ---
+--- client 6 in epoch 10 [aggregation then communication] ---
+--- client 7 in epoch 10 [aggregation then communication] ---
+--- client 8 in epoch 10 [aggregation then communication] ------ client 9 in epoch 10 [aggregation then communication] ---
+
+--- global epoch 10: global acc = 78.93% ---
+--- local epoch 10: local acc = [C0:77.92%, C1:78.11%, C2:77.94%, C3:77.12%, C4:78.52%, C5:78.84%, C6:77.92%, C7:77.57%, C8:78.53%, C9:77.62%] ---
+
+--- global epoch 11/60 ---
+--- At epoch 11, learning rate decays to 0.004085 ---
+--- client 0 in epoch 11 [aggregation then communication] ---
+--- client 1 in epoch 11 [aggregation then communication] ---
+--- client 2 in epoch 11 [aggregation then communication] ---
+--- client 3 in epoch 11 [aggregation then communication] ---
+--- client 4 in epoch 11 [aggregation then communication] ---
+--- client 5 in epoch 11 [aggregation then communication] ------ client 6 in epoch 11 [aggregation then communication] ---
+
+--- client 7 in epoch 11 [aggregation then communication] ---
+--- client 8 in epoch 11 [aggregation then communication] ---
+--- client 9 in epoch 11 [aggregation then communication] ---
+--- global epoch 11: global acc = 80.22% ---
+--- local epoch 11: local acc = [C0:79.58%, C1:79.92%, C2:79.71%, C3:79.67%, C4:80.41%, C5:81.07%, C6:80.41%, C7:79.52%, C8:80.20%, C9:80.27%] ---
+
+--- global epoch 12/60 ---
+--- At epoch 12, learning rate decays to 0.004004 ---
+--- client 0 in epoch 12 [aggregation then communication] ---
+--- client 1 in epoch 12 [aggregation then communication] ---
+--- client 2 in epoch 12 [aggregation then communication] ---
+--- client 3 in epoch 12 [aggregation then communication] ---
+--- client 4 in epoch 12 [aggregation then communication] ---
+--- client 5 in epoch 12 [aggregation then communication] ---
+--- client 6 in epoch 12 [aggregation then communication] ---
+--- client 7 in epoch 12 [aggregation then communication] ---
+--- client 8 in epoch 12 [aggregation then communication] ---
+--- client 9 in epoch 12 [aggregation then communication] ---
+--- global epoch 12: global acc = 81.50% ---
+--- local epoch 12: local acc = [C0:81.17%, C1:81.52%, C2:80.95%, C3:81.31%, C4:82.21%, C5:82.13%, C6:81.71%, C7:81.28%, C8:81.86%, C9:81.16%] ---
+
+--- global epoch 13/60 ---
+--- At epoch 13, learning rate decays to 0.003924 ---
+--- client 0 in epoch 13 [aggregation then communication] ---
+--- client 1 in epoch 13 [aggregation then communication] ---
+--- client 2 in epoch 13 [aggregation then communication] ---
+--- client 3 in epoch 13 [aggregation then communication] ---
+--- client 4 in epoch 13 [aggregation then communication] ---
+--- client 5 in epoch 13 [aggregation then communication] ---
+--- client 6 in epoch 13 [aggregation then communication] ---
+--- client 7 in epoch 13 [aggregation then communication] ---
+--- client 8 in epoch 13 [aggregation then communication] ---
+--- client 9 in epoch 13 [aggregation then communication] ---
+--- global epoch 13: global acc = 80.89% ---
+--- local epoch 13: local acc = [C0:81.92%, C1:82.58%, C2:82.41%, C3:82.48%, C4:82.85%, C5:82.96%, C6:82.47%, C7:82.42%, C8:82.92%, C9:81.98%] ---
+
+--- global epoch 14/60 ---
+--- At epoch 14, learning rate decays to 0.003845 ---
+--- client 0 in epoch 14 [aggregation then communication] ---
+--- client 1 in epoch 14 [aggregation then communication] ---
+--- client 2 in epoch 14 [aggregation then communication] ---
+--- client 3 in epoch 14 [aggregation then communication] ---
+--- client 4 in epoch 14 [aggregation then communication] ---
+--- client 5 in epoch 14 [aggregation then communication] ---
+--- client 6 in epoch 14 [aggregation then communication] ---
+--- client 7 in epoch 14 [aggregation then communication] ---
+--- client 8 in epoch 14 [aggregation then communication] ---
+--- client 9 in epoch 14 [aggregation then communication] ---
+--- global epoch 14: global acc = 82.23% ---
+--- local epoch 14: local acc = [C0:82.53%, C1:83.03%, C2:82.78%, C3:83.05%, C4:83.69%, C5:84.17%, C6:83.53%, C7:83.12%, C8:82.72%, C9:82.99%] ---
+
+--- global epoch 15/60 ---
+--- At epoch 15, learning rate decays to 0.003768 ---
+--- client 0 in epoch 15 [aggregation then communication] ---
+--- client 1 in epoch 15 [aggregation then communication] ---
+--- client 2 in epoch 15 [aggregation then communication] ---
+--- client 3 in epoch 15 [aggregation then communication] ---
+--- client 4 in epoch 15 [aggregation then communication] ---
+--- client 5 in epoch 15 [aggregation then communication] ---
+--- client 6 in epoch 15 [aggregation then communication] ---
+--- client 7 in epoch 15 [aggregation then communication] ---
+--- client 8 in epoch 15 [aggregation then communication] ---
+--- client 9 in epoch 15 [aggregation then communication] ---
+--- global epoch 15: global acc = 82.61% ---
+--- local epoch 15: local acc = [C0:83.99%, C1:83.82%, C2:83.22%, C3:83.91%, C4:84.15%, C5:84.73%, C6:84.26%, C7:83.53%, C8:84.05%, C9:83.88%] ---
+
+--- global epoch 16/60 ---
+--- At epoch 16, learning rate decays to 0.003693 ---
+--- client 0 in epoch 16 [aggregation then communication] ---
+--- client 1 in epoch 16 [aggregation then communication] ---
+--- client 2 in epoch 16 [aggregation then communication] ---
+--- client 3 in epoch 16 [aggregation then communication] ---
+--- client 4 in epoch 16 [aggregation then communication] ---
+--- client 5 in epoch 16 [aggregation then communication] ---
+--- client 6 in epoch 16 [aggregation then communication] ---
+--- client 7 in epoch 16 [aggregation then communication] ---
+--- client 8 in epoch 16 [aggregation then communication] ---
+--- client 9 in epoch 16 [aggregation then communication] ---
+--- global epoch 16: global acc = 82.99% ---
+--- local epoch 16: local acc = [C0:84.20%, C1:84.55%, C2:84.34%, C3:84.29%, C4:85.06%, C5:85.19%, C6:84.84%, C7:84.03%, C8:84.59%, C9:83.65%] ---
+
+--- global epoch 17/60 ---
+--- At epoch 17, learning rate decays to 0.003619 ---
+--- client 0 in epoch 17 [aggregation then communication] ---
+--- client 1 in epoch 17 [aggregation then communication] ---
+--- client 2 in epoch 17 [aggregation then communication] ---
+--- client 3 in epoch 17 [aggregation then communication] ---
+--- client 4 in epoch 17 [aggregation then communication] ---
+--- client 5 in epoch 17 [aggregation then communication] ---
+--- client 6 in epoch 17 [aggregation then communication] ---
+--- client 7 in epoch 17 [aggregation then communication] ---
+--- client 8 in epoch 17 [aggregation then communication] ---
+--- client 9 in epoch 17 [aggregation then communication] ---
+--- global epoch 17: global acc = 84.36% ---
+--- local epoch 17: local acc = [C0:84.96%, C1:84.98%, C2:84.97%, C3:84.82%, C4:85.39%, C5:85.63%, C6:85.15%, C7:85.00%, C8:85.35%, C9:84.92%] ---
+
+--- global epoch 18/60 ---
+--- At epoch 18, learning rate decays to 0.003547 ---
+--- client 0 in epoch 18 [aggregation then communication] ---
+--- client 1 in epoch 18 [aggregation then communication] ---
+--- client 2 in epoch 18 [aggregation then communication] ---
+--- client 3 in epoch 18 [aggregation then communication] ---
+--- client 4 in epoch 18 [aggregation then communication] ---
+--- client 5 in epoch 18 [aggregation then communication] ---
+--- client 6 in epoch 18 [aggregation then communication] ---
+--- client 7 in epoch 18 [aggregation then communication] ---
+--- client 8 in epoch 18 [aggregation then communication] ---
+--- client 9 in epoch 18 [aggregation then communication] ---
+--- global epoch 18: global acc = 84.15% ---
+--- local epoch 18: local acc = [C0:85.39%, C1:85.52%, C2:85.21%, C3:85.04%, C4:85.92%, C5:86.16%, C6:86.17%, C7:85.23%, C8:85.46%, C9:85.12%] ---
+
+--- global epoch 19/60 ---
+--- At epoch 19, learning rate decays to 0.003476 ---
+--- client 0 in epoch 19 [aggregation then communication] ---
+--- client 1 in epoch 19 [aggregation then communication] ---
+--- client 2 in epoch 19 [aggregation then communication] ---
+--- client 3 in epoch 19 [aggregation then communication] ---
+--- client 4 in epoch 19 [aggregation then communication] ---
+--- client 5 in epoch 19 [aggregation then communication] ---
+--- client 6 in epoch 19 [aggregation then communication] ---
+--- client 7 in epoch 19 [aggregation then communication] ---
+--- client 8 in epoch 19 [aggregation then communication] ---
+--- client 9 in epoch 19 [aggregation then communication] ---
+--- global epoch 19: global acc = 84.69% ---
+--- local epoch 19: local acc = [C0:86.00%, C1:86.39%, C2:85.80%, C3:85.74%, C4:86.48%, C5:86.64%, C6:86.30%, C7:85.32%, C8:86.18%, C9:86.10%] ---
+
+--- global epoch 20/60 ---
+--- At epoch 20, learning rate decays to 0.003406 ---
+--- client 0 in epoch 20 [aggregation then communication] ---
+--- client 1 in epoch 20 [aggregation then communication] ---
+--- client 2 in epoch 20 [aggregation then communication] ---
+--- client 3 in epoch 20 [aggregation then communication] ---
+--- client 4 in epoch 20 [aggregation then communication] ---
+--- client 5 in epoch 20 [aggregation then communication] ---
+--- client 6 in epoch 20 [aggregation then communication] ---
+--- client 7 in epoch 20 [aggregation then communication] ---
+--- client 8 in epoch 20 [aggregation then communication] ---
+--- client 9 in epoch 20 [aggregation then communication] ---
+--- global epoch 20: global acc = 84.76% ---
+--- local epoch 20: local acc = [C0:86.53%, C1:86.36%, C2:86.32%, C3:86.25%, C4:86.93%, C5:87.28%, C6:86.92%, C7:86.12%, C8:86.24%, C9:86.22%] ---
+
+--- global epoch 21/60 ---
+--- At epoch 21, learning rate decays to 0.003338 ---
+--- client 0 in epoch 21 [aggregation then communication] ---
+--- client 1 in epoch 21 [aggregation then communication] ---
+--- client 2 in epoch 21 [aggregation then communication] ---
+--- client 3 in epoch 21 [aggregation then communication] ---
+--- client 4 in epoch 21 [aggregation then communication] ---
+--- client 5 in epoch 21 [aggregation then communication] ---
+--- client 6 in epoch 21 [aggregation then communication] ---
+--- client 7 in epoch 21 [aggregation then communication] ---
+--- client 8 in epoch 21 [aggregation then communication] ---
+--- client 9 in epoch 21 [aggregation then communication] ---
+--- global epoch 21: global acc = 85.04% ---
+--- local epoch 21: local acc = [C0:86.67%, C1:87.07%, C2:86.78%, C3:86.63%, C4:86.92%, C5:87.43%, C6:87.06%, C7:86.62%, C8:86.86%, C9:87.02%] ---
+
+--- global epoch 22/60 ---
+--- At epoch 22, learning rate decays to 0.003271 ---
+--- client 0 in epoch 22 [aggregation then communication] ---
+--- client 1 in epoch 22 [aggregation then communication] ---
+--- client 2 in epoch 22 [aggregation then communication] ---
+--- client 3 in epoch 22 [aggregation then communication] ---
+--- client 4 in epoch 22 [aggregation then communication] ---
+--- client 5 in epoch 22 [aggregation then communication] ---
+--- client 6 in epoch 22 [aggregation then communication] ---
+--- client 7 in epoch 22 [aggregation then communication] ---
+--- client 8 in epoch 22 [aggregation then communication] ---
+--- client 9 in epoch 22 [aggregation then communication] ---
+--- global epoch 22: global acc = 84.79% ---
+--- local epoch 22: local acc = [C0:87.41%, C1:87.44%, C2:86.88%, C3:86.89%, C4:87.41%, C5:88.20%, C6:87.55%, C7:86.45%, C8:87.53%, C9:86.99%] ---
+
+--- global epoch 23/60 ---
+--- At epoch 23, learning rate decays to 0.003206 ---
+--- client 0 in epoch 23 [aggregation then communication] ---
+--- client 1 in epoch 23 [aggregation then communication] ---
+--- client 2 in epoch 23 [aggregation then communication] ---
+--- client 3 in epoch 23 [aggregation then communication] ---
+--- client 4 in epoch 23 [aggregation then communication] ---
+--- client 5 in epoch 23 [aggregation then communication] ---
+--- client 6 in epoch 23 [aggregation then communication] ---
+--- client 7 in epoch 23 [aggregation then communication] ---
+--- client 8 in epoch 23 [aggregation then communication] ---
+--- client 9 in epoch 23 [aggregation then communication] ---
+--- global epoch 23: global acc = 85.23% ---
+--- local epoch 23: local acc = [C0:87.62%, C1:87.77%, C2:87.55%, C3:87.22%, C4:87.90%, C5:88.42%, C6:87.94%, C7:87.50%, C8:87.46%, C9:87.73%] ---
+
+--- global epoch 24/60 ---
+--- At epoch 24, learning rate decays to 0.003142 ---
+--- client 0 in epoch 24 [aggregation then communication] ---
+--- client 1 in epoch 24 [aggregation then communication] ---
+--- client 2 in epoch 24 [aggregation then communication] ---
+--- client 3 in epoch 24 [aggregation then communication] ---
+--- client 4 in epoch 24 [aggregation then communication] ---
+--- client 5 in epoch 24 [aggregation then communication] ---
+--- client 6 in epoch 24 [aggregation then communication] ---
+--- client 7 in epoch 24 [aggregation then communication] ---
+--- client 8 in epoch 24 [aggregation then communication] ---
+--- client 9 in epoch 24 [aggregation then communication] ---
+--- global epoch 24: global acc = 85.71% ---
+--- local epoch 24: local acc = [C0:87.79%, C1:87.99%, C2:88.10%, C3:87.65%, C4:88.23%, C5:88.62%, C6:88.28%, C7:87.57%, C8:87.92%, C9:88.40%] ---
+
+--- global epoch 25/60 ---
+--- At epoch 25, learning rate decays to 0.003079 ---
+--- client 0 in epoch 25 [aggregation then communication] ---
+--- client 1 in epoch 25 [aggregation then communication] ---
+--- client 2 in epoch 25 [aggregation then communication] ---
+--- client 3 in epoch 25 [aggregation then communication] ---
+--- client 4 in epoch 25 [aggregation then communication] ---
+--- client 5 in epoch 25 [aggregation then communication] ---
+--- client 6 in epoch 25 [aggregation then communication] ---
+--- client 7 in epoch 25 [aggregation then communication] ---
+--- client 8 in epoch 25 [aggregation then communication] ---
+--- client 9 in epoch 25 [aggregation then communication] ---
+--- global epoch 25: global acc = 86.35% ---
+--- local epoch 25: local acc = [C0:88.12%, C1:88.47%, C2:88.07%, C3:87.97%, C4:88.12%, C5:89.57%, C6:88.42%, C7:87.88%, C8:88.59%, C9:88.33%] ---
+
+--- global epoch 26/60 ---
+--- At epoch 26, learning rate decays to 0.003017 ---
+--- client 0 in epoch 26 [aggregation then communication] ---
+--- client 1 in epoch 26 [aggregation then communication] ---
+--- client 2 in epoch 26 [aggregation then communication] ---
+--- client 3 in epoch 26 [aggregation then communication] ---
+--- client 4 in epoch 26 [aggregation then communication] ---
+--- client 5 in epoch 26 [aggregation then communication] ---
+--- client 6 in epoch 26 [aggregation then communication] ---
+--- client 7 in epoch 26 [aggregation then communication] ---
+--- client 8 in epoch 26 [aggregation then communication] ---
+--- client 9 in epoch 26 [aggregation then communication] ---
+--- global epoch 26: global acc = 86.50% ---
+--- local epoch 26: local acc = [C0:88.12%, C1:88.73%, C2:88.42%, C3:88.28%, C4:88.81%, C5:89.91%, C6:89.03%, C7:88.58%, C8:88.64%, C9:88.92%] ---
+
+--- global epoch 27/60 ---
+--- At epoch 27, learning rate decays to 0.002957 ---
+--- client 0 in epoch 27 [aggregation then communication] ---
+--- client 1 in epoch 27 [aggregation then communication] ---
+--- client 2 in epoch 27 [aggregation then communication] ---
+--- client 3 in epoch 27 [aggregation then communication] ---
+--- client 4 in epoch 27 [aggregation then communication] ---
+--- client 5 in epoch 27 [aggregation then communication] ---
+--- client 6 in epoch 27 [aggregation then communication] ---
+--- client 7 in epoch 27 [aggregation then communication] ---
+--- client 8 in epoch 27 [aggregation then communication] ---
+--- client 9 in epoch 27 [aggregation then communication] ---
+--- global epoch 27: global acc = 86.57% ---
+--- local epoch 27: local acc = [C0:88.79%, C1:88.83%, C2:88.62%, C3:88.65%, C4:89.02%, C5:89.72%, C6:89.17%, C7:88.11%, C8:88.90%, C9:89.43%] ---
+
+--- global epoch 28/60 ---
+--- At epoch 28, learning rate decays to 0.002898 ---
+--- client 0 in epoch 28 [aggregation then communication] ---
+--- client 1 in epoch 28 [aggregation then communication] ---
+--- client 2 in epoch 28 [aggregation then communication] ---
+--- client 3 in epoch 28 [aggregation then communication] ---
+--- client 4 in epoch 28 [aggregation then communication] ---
+--- client 5 in epoch 28 [aggregation then communication] ---
+--- client 6 in epoch 28 [aggregation then communication] ---
+--- client 7 in epoch 28 [aggregation then communication] ---
+--- client 8 in epoch 28 [aggregation then communication] ---
+--- client 9 in epoch 28 [aggregation then communication] ---
+--- global epoch 28: global acc = 87.10% ---
+--- local epoch 28: local acc = [C0:88.82%, C1:89.69%, C2:89.09%, C3:88.70%, C4:89.32%, C5:89.87%, C6:89.83%, C7:89.05%, C8:89.17%, C9:89.18%] ---
+
+--- global epoch 29/60 ---
+--- At epoch 29, learning rate decays to 0.002840 ---
+--- client 0 in epoch 29 [aggregation then communication] ---
+--- client 1 in epoch 29 [aggregation then communication] ---
+--- client 2 in epoch 29 [aggregation then communication] ---
+--- client 3 in epoch 29 [aggregation then communication] ---
+--- client 4 in epoch 29 [aggregation then communication] ---
+--- client 5 in epoch 29 [aggregation then communication] ---
+--- client 6 in epoch 29 [aggregation then communication] ---
+--- client 7 in epoch 29 [aggregation then communication] ---
+--- client 8 in epoch 29 [aggregation then communication] ---
+--- client 9 in epoch 29 [aggregation then communication] ---
+--- global epoch 29: global acc = 87.22% ---
+--- local epoch 29: local acc = [C0:89.41%, C1:90.06%, C2:88.83%, C3:89.12%, C4:89.28%, C5:90.56%, C6:89.85%, C7:88.83%, C8:89.69%, C9:89.34%] ---
+
+--- global epoch 30/60 ---
+--- At epoch 30, learning rate decays to 0.002783 ---
+--- client 0 in epoch 30 [aggregation then communication] ---
+--- client 1 in epoch 30 [aggregation then communication] ---
+--- client 2 in epoch 30 [aggregation then communication] ---
+--- client 3 in epoch 30 [aggregation then communication] ---
+--- client 4 in epoch 30 [aggregation then communication] ---
+--- client 5 in epoch 30 [aggregation then communication] ---
+--- client 6 in epoch 30 [aggregation then communication] ---
+--- client 7 in epoch 30 [aggregation then communication] ---
+--- client 8 in epoch 30 [aggregation then communication] ---
+--- client 9 in epoch 30 [aggregation then communication] ---
+--- global epoch 30: global acc = 87.27% ---
+--- local epoch 30: local acc = [C0:89.28%, C1:90.40%, C2:89.12%, C3:89.42%, C4:89.76%, C5:90.28%, C6:89.78%, C7:89.78%, C8:89.53%, C9:90.00%] ---
+
+--- global epoch 31/60 ---
+--- At epoch 31, learning rate decays to 0.002727 ---
+--- client 0 in epoch 31 [aggregation then communication] ---
+--- client 1 in epoch 31 [aggregation then communication] ---
+--- client 2 in epoch 31 [aggregation then communication] ---
+--- client 3 in epoch 31 [aggregation then communication] ---
+--- client 4 in epoch 31 [aggregation then communication] ---
+--- client 5 in epoch 31 [aggregation then communication] ---
+--- client 6 in epoch 31 [aggregation then communication] ---
+--- client 7 in epoch 31 [aggregation then communication] ---
+--- client 8 in epoch 31 [aggregation then communication] ---
+--- client 9 in epoch 31 [aggregation then communication] ---
+--- global epoch 31: global acc = 87.05% ---
+--- local epoch 31: local acc = [C0:89.58%, C1:90.05%, C2:89.44%, C3:89.42%, C4:89.80%, C5:90.60%, C6:90.10%, C7:89.69%, C8:89.89%, C9:90.25%] ---
+
+--- global epoch 32/60 ---
+--- At epoch 32, learning rate decays to 0.002673 ---
+--- client 0 in epoch 32 [aggregation then communication] ---
+--- client 1 in epoch 32 [aggregation then communication] ---
+--- client 2 in epoch 32 [aggregation then communication] ---
+--- client 3 in epoch 32 [aggregation then communication] ---
+--- client 4 in epoch 32 [aggregation then communication] ---
+--- client 5 in epoch 32 [aggregation then communication] ---
+--- client 6 in epoch 32 [aggregation then communication] ---
+--- client 7 in epoch 32 [aggregation then communication] ---
+--- client 8 in epoch 32 [aggregation then communication] ---
+--- client 9 in epoch 32 [aggregation then communication] ---
+--- global epoch 32: global acc = 87.61% ---
+--- local epoch 32: local acc = [C0:89.79%, C1:90.62%, C2:89.82%, C3:89.82%, C4:90.28%, C5:90.62%, C6:90.46%, C7:90.22%, C8:90.39%, C9:90.05%] ---
+
+--- global epoch 33/60 ---
+--- At epoch 33, learning rate decays to 0.002619 ---
+--- client 0 in epoch 33 [aggregation then communication] ---
+--- client 1 in epoch 33 [aggregation then communication] ---
+--- client 2 in epoch 33 [aggregation then communication] ---
+--- client 3 in epoch 33 [aggregation then communication] ---
+--- client 4 in epoch 33 [aggregation then communication] ---
+--- client 5 in epoch 33 [aggregation then communication] ---
+--- client 6 in epoch 33 [aggregation then communication] ---
+--- client 7 in epoch 33 [aggregation then communication] ---
+--- client 8 in epoch 33 [aggregation then communication] ---
+--- client 9 in epoch 33 [aggregation then communication] ---
+--- global epoch 33: global acc = 87.85% ---
+--- local epoch 33: local acc = [C0:89.90%, C1:90.46%, C2:89.87%, C3:90.33%, C4:90.34%, C5:90.92%, C6:90.62%, C7:90.24%, C8:90.66%, C9:90.48%] ---
+
+--- global epoch 34/60 ---
+--- At epoch 34, learning rate decays to 0.002567 ---
+--- client 0 in epoch 34 [aggregation then communication] ---
+--- client 1 in epoch 34 [aggregation then communication] ---
+--- client 2 in epoch 34 [aggregation then communication] ---
+--- client 3 in epoch 34 [aggregation then communication] ---
+--- client 4 in epoch 34 [aggregation then communication] ---
+--- client 5 in epoch 34 [aggregation then communication] ---
+--- client 6 in epoch 34 [aggregation then communication] ---
+--- client 7 in epoch 34 [aggregation then communication] ---
+--- client 8 in epoch 34 [aggregation then communication] ---
+--- client 9 in epoch 34 [aggregation then communication] ---
+--- global epoch 34: global acc = 88.05% ---
+--- local epoch 34: local acc = [C0:90.38%, C1:90.75%, C2:90.01%, C3:90.29%, C4:90.57%, C5:91.17%, C6:91.12%, C7:90.32%, C8:90.68%, C9:90.95%] ---
+
+--- global epoch 35/60 ---
+--- At epoch 35, learning rate decays to 0.002516 ---
+--- client 0 in epoch 35 [aggregation then communication] ---
+--- client 1 in epoch 35 [aggregation then communication] ---
+--- client 2 in epoch 35 [aggregation then communication] ---
+--- client 3 in epoch 35 [aggregation then communication] ---
+--- client 4 in epoch 35 [aggregation then communication] ---
+--- client 5 in epoch 35 [aggregation then communication] ---
+--- client 6 in epoch 35 [aggregation then communication] ---
+--- client 7 in epoch 35 [aggregation then communication] ---
+--- client 8 in epoch 35 [aggregation then communication] ---
+--- client 9 in epoch 35 [aggregation then communication] ---
+--- global epoch 35: global acc = 88.18% ---
+--- local epoch 35: local acc = [C0:90.67%, C1:91.07%, C2:90.43%, C3:90.39%, C4:90.58%, C5:91.23%, C6:90.96%, C7:90.35%, C8:90.72%, C9:91.15%] ---
+
+--- global epoch 36/60 ---
+--- At epoch 36, learning rate decays to 0.002465 ---
+--- client 0 in epoch 36 [aggregation then communication] ---
+--- client 1 in epoch 36 [aggregation then communication] ---
+--- client 2 in epoch 36 [aggregation then communication] ---
+--- client 3 in epoch 36 [aggregation then communication] ---
+--- client 4 in epoch 36 [aggregation then communication] ---
+--- client 5 in epoch 36 [aggregation then communication] ---
+--- client 6 in epoch 36 [aggregation then communication] ---
+--- client 7 in epoch 36 [aggregation then communication] ---
+--- client 8 in epoch 36 [aggregation then communication] ---
+--- client 9 in epoch 36 [aggregation then communication] ---
+--- global epoch 36: global acc = 87.26% ---
+--- local epoch 36: local acc = [C0:90.99%, C1:91.31%, C2:90.40%, C3:90.87%, C4:90.75%, C5:91.20%, C6:91.15%, C7:90.76%, C8:91.31%, C9:91.49%] ---
+
+--- global epoch 37/60 ---
+--- At epoch 37, learning rate decays to 0.002416 ---
+--- client 0 in epoch 37 [aggregation then communication] ---
+--- client 1 in epoch 37 [aggregation then communication] ---
+--- client 2 in epoch 37 [aggregation then communication] ---
+--- client 3 in epoch 37 [aggregation then communication] ---
+--- client 4 in epoch 37 [aggregation then communication] ---
+--- client 5 in epoch 37 [aggregation then communication] ---
+--- client 6 in epoch 37 [aggregation then communication] ---
+--- client 7 in epoch 37 [aggregation then communication] ---
+--- client 8 in epoch 37 [aggregation then communication] ---
+--- client 9 in epoch 37 [aggregation then communication] ---
+--- global epoch 37: global acc = 88.13% ---
+--- local epoch 37: local acc = [C0:90.80%, C1:91.75%, C2:90.64%, C3:90.52%, C4:91.20%, C5:91.69%, C6:91.79%, C7:90.90%, C8:91.11%, C9:91.47%] ---
+
+--- global epoch 38/60 ---
+--- At epoch 38, learning rate decays to 0.002368 ---
+--- client 0 in epoch 38 [aggregation then communication] ---
+--- client 1 in epoch 38 [aggregation then communication] ---
+--- client 2 in epoch 38 [aggregation then communication] ---
+--- client 3 in epoch 38 [aggregation then communication] ---
+--- client 4 in epoch 38 [aggregation then communication] ---
+--- client 5 in epoch 38 [aggregation then communication] ---
+--- client 6 in epoch 38 [aggregation then communication] ---
+--- client 7 in epoch 38 [aggregation then communication] ---
+--- client 8 in epoch 38 [aggregation then communication] ---
+--- client 9 in epoch 38 [aggregation then communication] ---
+--- global epoch 38: global acc = 88.06% ---
+--- local epoch 38: local acc = [C0:91.22%, C1:91.57%, C2:91.18%, C3:90.91%, C4:91.37%, C5:91.59%, C6:91.45%, C7:91.22%, C8:91.76%, C9:91.76%] ---
+
+--- global epoch 39/60 ---
+--- At epoch 39, learning rate decays to 0.002320 ---
+--- client 0 in epoch 39 [aggregation then communication] ---
+--- client 1 in epoch 39 [aggregation then communication] ---
+--- client 2 in epoch 39 [aggregation then communication] ---
+--- client 3 in epoch 39 [aggregation then communication] ---
+--- client 4 in epoch 39 [aggregation then communication] ---
+--- client 5 in epoch 39 [aggregation then communication] ---
+--- client 6 in epoch 39 [aggregation then communication] ---
+--- client 7 in epoch 39 [aggregation then communication] ---
+--- client 8 in epoch 39 [aggregation then communication] ---
+--- client 9 in epoch 39 [aggregation then communication] ---
+--- global epoch 39: global acc = 88.06% ---
+--- local epoch 39: local acc = [C0:91.13%, C1:91.73%, C2:91.23%, C3:91.34%, C4:91.43%, C5:91.85%, C6:91.83%, C7:91.26%, C8:91.32%, C9:91.88%] ---
+
+--- global epoch 40/60 ---
+--- At epoch 40, learning rate decays to 0.002274 ---
+--- client 0 in epoch 40 [aggregation then communication] ---
+--- client 1 in epoch 40 [aggregation then communication] ---
+--- client 2 in epoch 40 [aggregation then communication] ---
+--- client 3 in epoch 40 [aggregation then communication] ---
+--- client 4 in epoch 40 [aggregation then communication] ---
+--- client 5 in epoch 40 [aggregation then communication] ---
+--- client 6 in epoch 40 [aggregation then communication] ---
+--- client 7 in epoch 40 [aggregation then communication] ---
+--- client 8 in epoch 40 [aggregation then communication] ---
+--- client 9 in epoch 40 [aggregation then communication] ---
+--- global epoch 40: global acc = 88.29% ---
+--- local epoch 40: local acc = [C0:91.28%, C1:91.94%, C2:91.32%, C3:91.35%, C4:91.62%, C5:92.05%, C6:92.43%, C7:91.48%, C8:91.80%, C9:91.98%] ---
+
+--- global epoch 41/60 ---
+--- At epoch 41, learning rate decays to 0.002229 ---
+--- client 0 in epoch 41 [aggregation then communication] ---
+--- client 1 in epoch 41 [aggregation then communication] ---
+--- client 2 in epoch 41 [aggregation then communication] ---
+--- client 3 in epoch 41 [aggregation then communication] ---
+--- client 4 in epoch 41 [aggregation then communication] ---
+--- client 5 in epoch 41 [aggregation then communication] ---
+--- client 6 in epoch 41 [aggregation then communication] ---
+--- client 7 in epoch 41 [aggregation then communication] ---
+--- client 8 in epoch 41 [aggregation then communication] ---
+--- client 9 in epoch 41 [aggregation then communication] ---
+--- global epoch 41: global acc = 88.27% ---
+--- local epoch 41: local acc = [C0:91.66%, C1:91.83%, C2:91.70%, C3:91.49%, C4:91.53%, C5:92.47%, C6:91.89%, C7:91.72%, C8:91.97%, C9:92.49%] ---
+
+--- global epoch 42/60 ---
+--- At epoch 42, learning rate decays to 0.002184 ---
+--- client 0 in epoch 42 [aggregation then communication] ---
+--- client 1 in epoch 42 [aggregation then communication] ---
+--- client 2 in epoch 42 [aggregation then communication] ---
+--- client 3 in epoch 42 [aggregation then communication] ---
+--- client 4 in epoch 42 [aggregation then communication] ---
+--- client 5 in epoch 42 [aggregation then communication] ---
+--- client 6 in epoch 42 [aggregation then communication] ---
+--- client 7 in epoch 42 [aggregation then communication] ---
+--- client 8 in epoch 42 [aggregation then communication] ---
+--- client 9 in epoch 42 [aggregation then communication] ---
+--- global epoch 42: global acc = 88.55% ---
+--- local epoch 42: local acc = [C0:91.61%, C1:92.09%, C2:91.95%, C3:91.52%, C4:91.62%, C5:92.36%, C6:92.32%, C7:91.97%, C8:92.12%, C9:92.81%] ---
+
+--- global epoch 43/60 ---
+--- At epoch 43, learning rate decays to 0.002140 ---
+--- client 0 in epoch 43 [aggregation then communication] ---
+--- client 1 in epoch 43 [aggregation then communication] ---
+--- client 2 in epoch 43 [aggregation then communication] ---
+--- client 3 in epoch 43 [aggregation then communication] ---
+--- client 4 in epoch 43 [aggregation then communication] ---
+--- client 5 in epoch 43 [aggregation then communication] ---
+--- client 6 in epoch 43 [aggregation then communication] ---
+--- client 7 in epoch 43 [aggregation then communication] ---
+--- client 8 in epoch 43 [aggregation then communication] ---
+--- client 9 in epoch 43 [aggregation then communication] ---
+--- global epoch 43: global acc = 88.45% ---
+--- local epoch 43: local acc = [C0:91.59%, C1:92.70%, C2:92.22%, C3:91.86%, C4:91.97%, C5:92.82%, C6:92.49%, C7:91.81%, C8:92.32%, C9:92.60%] ---
+
+--- global epoch 44/60 ---
+--- At epoch 44, learning rate decays to 0.002097 ---
+--- client 0 in epoch 44 [aggregation then communication] ---
+--- client 1 in epoch 44 [aggregation then communication] ---
+--- client 2 in epoch 44 [aggregation then communication] ---
+--- client 3 in epoch 44 [aggregation then communication] ---
+--- client 4 in epoch 44 [aggregation then communication] ---
+--- client 5 in epoch 44 [aggregation then communication] ---
+--- client 6 in epoch 44 [aggregation then communication] ---
+--- client 7 in epoch 44 [aggregation then communication] ---
+--- client 8 in epoch 44 [aggregation then communication] ---
+--- client 9 in epoch 44 [aggregation then communication] ---
+--- global epoch 44: global acc = 88.37% ---
+--- local epoch 44: local acc = [C0:92.20%, C1:93.07%, C2:92.32%, C3:92.45%, C4:92.22%, C5:92.97%, C6:93.16%, C7:92.10%, C8:92.50%, C9:93.20%] ---
+
+--- global epoch 45/60 ---
+--- At epoch 45, learning rate decays to 0.002055 ---
+--- client 0 in epoch 45 [aggregation then communication] ---
+--- client 1 in epoch 45 [aggregation then communication] ---
+--- client 2 in epoch 45 [aggregation then communication] ---
+--- client 3 in epoch 45 [aggregation then communication] ---
+--- client 4 in epoch 45 [aggregation then communication] ---
+--- client 5 in epoch 45 [aggregation then communication] ---
+--- client 6 in epoch 45 [aggregation then communication] ---
+--- client 7 in epoch 45 [aggregation then communication] ---
+--- client 8 in epoch 45 [aggregation then communication] ---
+--- client 9 in epoch 45 [aggregation then communication] ---
+--- global epoch 45: global acc = 88.78% ---
+--- local epoch 45: local acc = [C0:91.78%, C1:92.71%, C2:92.20%, C3:92.37%, C4:93.01%, C5:93.42%, C6:92.68%, C7:92.52%, C8:92.55%, C9:93.38%] ---
+
+--- global epoch 46/60 ---
+--- At epoch 46, learning rate decays to 0.002014 ---
+--- client 0 in epoch 46 [aggregation then communication] ---
+--- client 1 in epoch 46 [aggregation then communication] ---
+--- client 2 in epoch 46 [aggregation then communication] ---
+--- client 3 in epoch 46 [aggregation then communication] ---
+--- client 4 in epoch 46 [aggregation then communication] ---
+--- client 5 in epoch 46 [aggregation then communication] ---
+--- client 6 in epoch 46 [aggregation then communication] ---
+--- client 7 in epoch 46 [aggregation then communication] ---
+--- client 8 in epoch 46 [aggregation then communication] ---
+--- client 9 in epoch 46 [aggregation then communication] ---
+--- global epoch 46: global acc = 88.73% ---
+--- local epoch 46: local acc = [C0:92.20%, C1:92.97%, C2:92.17%, C3:92.41%, C4:92.67%, C5:93.08%, C6:93.24%, C7:92.39%, C8:92.49%, C9:93.39%] ---
+
+--- global epoch 47/60 ---
+--- At epoch 47, learning rate decays to 0.001974 ---
+--- client 0 in epoch 47 [aggregation then communication] ---
+--- client 1 in epoch 47 [aggregation then communication] ---
+--- client 2 in epoch 47 [aggregation then communication] ---
+--- client 3 in epoch 47 [aggregation then communication] ---
+--- client 4 in epoch 47 [aggregation then communication] ---
+--- client 5 in epoch 47 [aggregation then communication] ---
+--- client 6 in epoch 47 [aggregation then communication] ---
+--- client 7 in epoch 47 [aggregation then communication] ---
+--- client 8 in epoch 47 [aggregation then communication] ---
+--- client 9 in epoch 47 [aggregation then communication] ---
+--- global epoch 47: global acc = 89.04% ---
+--- local epoch 47: local acc = [C0:92.55%, C1:93.32%, C2:92.51%, C3:92.53%, C4:92.72%, C5:93.30%, C6:93.42%, C7:92.38%, C8:93.22%, C9:93.51%] ---
+
+--- global epoch 48/60 ---
+--- At epoch 48, learning rate decays to 0.001935 ---
+--- client 0 in epoch 48 [aggregation then communication] ---
+--- client 1 in epoch 48 [aggregation then communication] ---
+--- client 2 in epoch 48 [aggregation then communication] ---
+--- client 3 in epoch 48 [aggregation then communication] ---
+--- client 4 in epoch 48 [aggregation then communication] ---
+--- client 5 in epoch 48 [aggregation then communication] ---
+--- client 6 in epoch 48 [aggregation then communication] ---
+--- client 7 in epoch 48 [aggregation then communication] ---
+--- client 8 in epoch 48 [aggregation then communication] ---
+--- client 9 in epoch 48 [aggregation then communication] ---
+--- global epoch 48: global acc = 88.80% ---
+--- local epoch 48: local acc = [C0:92.54%, C1:93.26%, C2:92.77%, C3:93.02%, C4:92.97%, C5:93.54%, C6:93.41%, C7:92.59%, C8:92.88%, C9:93.80%] ---
+
+--- global epoch 49/60 ---
+--- At epoch 49, learning rate decays to 0.001896 ---
+--- client 0 in epoch 49 [aggregation then communication] ---
+--- client 1 in epoch 49 [aggregation then communication] ---
+--- client 2 in epoch 49 [aggregation then communication] ---
+--- client 3 in epoch 49 [aggregation then communication] ---
+--- client 4 in epoch 49 [aggregation then communication] ---
+--- client 5 in epoch 49 [aggregation then communication] ---
+--- client 6 in epoch 49 [aggregation then communication] ---
+--- client 7 in epoch 49 [aggregation then communication] ---
+--- client 8 in epoch 49 [aggregation then communication] ---
+--- client 9 in epoch 49 [aggregation then communication] ---
+--- global epoch 49: global acc = 88.48% ---
+--- local epoch 49: local acc = [C0:92.62%, C1:93.34%, C2:92.96%, C3:92.96%, C4:92.92%, C5:93.72%, C6:93.72%, C7:93.00%, C8:93.56%, C9:93.68%] ---
+
+--- global epoch 50/60 ---
+--- At epoch 50, learning rate decays to 0.001858 ---
+--- client 0 in epoch 50 [aggregation then communication] ---
+--- client 1 in epoch 50 [aggregation then communication] ---
+--- client 2 in epoch 50 [aggregation then communication] ---
+--- client 3 in epoch 50 [aggregation then communication] ---
+--- client 4 in epoch 50 [aggregation then communication] ---
+--- client 5 in epoch 50 [aggregation then communication] ---
+--- client 6 in epoch 50 [aggregation then communication] ---
+--- client 7 in epoch 50 [aggregation then communication] ---
+--- client 8 in epoch 50 [aggregation then communication] ---
+--- client 9 in epoch 50 [aggregation then communication] ---
+--- global epoch 50: global acc = 88.82% ---
+--- local epoch 50: local acc = [C0:92.58%, C1:93.53%, C2:93.22%, C3:93.30%, C4:93.24%, C5:93.97%, C6:93.88%, C7:92.76%, C8:93.22%, C9:93.55%] ---
+
+--- global epoch 51/60 ---
+--- At epoch 51, learning rate decays to 0.001821 ---
+--- client 0 in epoch 51 [aggregation then communication] ---
+--- client 1 in epoch 51 [aggregation then communication] ---
+--- client 2 in epoch 51 [aggregation then communication] ---
+--- client 3 in epoch 51 [aggregation then communication] ---
+--- client 4 in epoch 51 [aggregation then communication] ---
+--- client 5 in epoch 51 [aggregation then communication] ---
+--- client 6 in epoch 51 [aggregation then communication] ---
+--- client 7 in epoch 51 [aggregation then communication] ---
+--- client 8 in epoch 51 [aggregation then communication] ---
+--- client 9 in epoch 51 [aggregation then communication] ---
+--- global epoch 51: global acc = 88.99% ---
+--- local epoch 51: local acc = [C0:92.97%, C1:93.79%, C2:93.04%, C3:93.38%, C4:93.41%, C5:93.79%, C6:93.93%, C7:93.27%, C8:93.77%, C9:93.69%] ---
+
+--- global epoch 52/60 ---
+--- At epoch 52, learning rate decays to 0.001784 ---
+--- client 0 in epoch 52 [aggregation then communication] ---
+--- client 1 in epoch 52 [aggregation then communication] ---
+--- client 2 in epoch 52 [aggregation then communication] ---
+--- client 3 in epoch 52 [aggregation then communication] ---
+--- client 4 in epoch 52 [aggregation then communication] ---
+--- client 5 in epoch 52 [aggregation then communication] ---
+--- client 6 in epoch 52 [aggregation then communication] ---
+--- client 7 in epoch 52 [aggregation then communication] ---
+--- client 8 in epoch 52 [aggregation then communication] ---
+--- client 9 in epoch 52 [aggregation then communication] ---
+--- global epoch 52: global acc = 88.85% ---
+--- local epoch 52: local acc = [C0:93.30%, C1:93.88%, C2:93.08%, C3:93.57%, C4:93.34%, C5:93.97%, C6:94.02%, C7:93.59%, C8:93.57%, C9:94.13%] ---
+
+--- global epoch 53/60 ---
+--- At epoch 53, learning rate decays to 0.001749 ---
+--- client 0 in epoch 53 [aggregation then communication] ---
+--- client 1 in epoch 53 [aggregation then communication] ---
+--- client 2 in epoch 53 [aggregation then communication] ---
+--- client 3 in epoch 53 [aggregation then communication] ---
+--- client 4 in epoch 53 [aggregation then communication] ---
+--- client 5 in epoch 53 [aggregation then communication] ---
+--- client 6 in epoch 53 [aggregation then communication] ---
+--- client 7 in epoch 53 [aggregation then communication] ---
+--- client 8 in epoch 53 [aggregation then communication] ---
+--- client 9 in epoch 53 [aggregation then communication] ---
+--- global epoch 53: global acc = 88.88% ---
+--- local epoch 53: local acc = [C0:93.45%, C1:93.97%, C2:93.36%, C3:93.24%, C4:93.53%, C5:94.16%, C6:94.16%, C7:93.48%, C8:93.81%, C9:94.22%] ---
+
+--- global epoch 54/60 ---
+--- At epoch 54, learning rate decays to 0.001714 ---
+--- client 0 in epoch 54 [aggregation then communication] ---
+--- client 1 in epoch 54 [aggregation then communication] ---
+--- client 2 in epoch 54 [aggregation then communication] ---
+--- client 3 in epoch 54 [aggregation then communication] ---
+--- client 4 in epoch 54 [aggregation then communication] ---
+--- client 5 in epoch 54 [aggregation then communication] ---
+--- client 6 in epoch 54 [aggregation then communication] ---
+--- client 7 in epoch 54 [aggregation then communication] ---
+--- client 8 in epoch 54 [aggregation then communication] ---
+--- client 9 in epoch 54 [aggregation then communication] ---
+--- global epoch 54: global acc = 88.92% ---
+--- local epoch 54: local acc = [C0:93.63%, C1:94.02%, C2:93.22%, C3:94.05%, C4:93.65%, C5:94.44%, C6:94.29%, C7:94.01%, C8:94.22%, C9:94.15%] ---
+
+--- global epoch 55/60 ---
+--- At epoch 55, learning rate decays to 0.001679 ---
+--- client 0 in epoch 55 [aggregation then communication] ---
+--- client 1 in epoch 55 [aggregation then communication] ---
+--- client 2 in epoch 55 [aggregation then communication] ---
+--- client 3 in epoch 55 [aggregation then communication] ---
+--- client 4 in epoch 55 [aggregation then communication] ---
+--- client 5 in epoch 55 [aggregation then communication] ---
+--- client 6 in epoch 55 [aggregation then communication] ---
+--- client 7 in epoch 55 [aggregation then communication] ---
+--- client 8 in epoch 55 [aggregation then communication] ---
+--- client 9 in epoch 55 [aggregation then communication] ---
+--- global epoch 55: global acc = 89.14% ---
+--- local epoch 55: local acc = [C0:93.68%, C1:94.67%, C2:93.13%, C3:94.07%, C4:93.76%, C5:94.51%, C6:94.41%, C7:93.17%, C8:93.93%, C9:94.22%] ---
+
+--- global epoch 56/60 ---
+--- At epoch 56, learning rate decays to 0.001646 ---
+--- client 0 in epoch 56 [aggregation then communication] ---
+--- client 1 in epoch 56 [aggregation then communication] ---
+--- client 2 in epoch 56 [aggregation then communication] ---
+--- client 3 in epoch 56 [aggregation then communication] ---
+--- client 4 in epoch 56 [aggregation then communication] ---
+--- client 5 in epoch 56 [aggregation then communication] ---
+--- client 6 in epoch 56 [aggregation then communication] ---
+--- client 7 in epoch 56 [aggregation then communication] ---
+--- client 8 in epoch 56 [aggregation then communication] ---
+--- client 9 in epoch 56 [aggregation then communication] ---
+--- global epoch 56: global acc = 89.25% ---
+--- local epoch 56: local acc = [C0:93.57%, C1:94.53%, C2:93.63%, C3:94.14%, C4:93.79%, C5:94.46%, C6:94.83%, C7:94.07%, C8:94.31%, C9:94.62%] ---
+
+--- global epoch 57/60 ---
+--- At epoch 57, learning rate decays to 0.001613 ---
+--- client 0 in epoch 57 [aggregation then communication] ---
+--- client 1 in epoch 57 [aggregation then communication] ---
+--- client 2 in epoch 57 [aggregation then communication] ---
+--- client 3 in epoch 57 [aggregation then communication] ---
+--- client 4 in epoch 57 [aggregation then communication] ---
+--- client 5 in epoch 57 [aggregation then communication] ---
+--- client 6 in epoch 57 [aggregation then communication] ---
+--- client 7 in epoch 57 [aggregation then communication] ---
+--- client 8 in epoch 57 [aggregation then communication] ---
+--- client 9 in epoch 57 [aggregation then communication] ---
+--- global epoch 57: global acc = 88.33% ---
+--- local epoch 57: local acc = [C0:93.33%, C1:94.72%, C2:93.86%, C3:94.21%, C4:94.87%, C5:94.41%, C6:94.72%, C7:94.00%, C8:94.22%, C9:94.77%] ---
+
+--- global epoch 58/60 ---
+--- At epoch 58, learning rate decays to 0.001581 ---
+--- client 0 in epoch 58 [aggregation then communication] ---
+--- client 1 in epoch 58 [aggregation then communication] ---
+--- client 2 in epoch 58 [aggregation then communication] ---
+--- client 3 in epoch 58 [aggregation then communication] ---
+--- client 4 in epoch 58 [aggregation then communication] ---
+--- client 5 in epoch 58 [aggregation then communication] ---
+--- client 6 in epoch 58 [aggregation then communication] ---
+--- client 7 in epoch 58 [aggregation then communication] ---
+--- client 8 in epoch 58 [aggregation then communication] ---
+--- client 9 in epoch 58 [aggregation then communication] ---
+--- global epoch 58: global acc = 88.76% ---
+--- local epoch 58: local acc = [C0:93.74%, C1:94.94%, C2:94.14%, C3:94.14%, C4:94.03%, C5:94.92%, C6:94.88%, C7:93.67%, C8:94.57%, C9:94.77%] ---
+
+--- global epoch 59/60 ---
+--- At epoch 59, learning rate decays to 0.001549 ---
+--- client 0 in epoch 59 [aggregation then communication] ---
+--- client 1 in epoch 59 [aggregation then communication] ---
+--- client 2 in epoch 59 [aggregation then communication] ---
+--- client 3 in epoch 59 [aggregation then communication] ---
+--- client 4 in epoch 59 [aggregation then communication] ---
+--- client 5 in epoch 59 [aggregation then communication] ---
+--- client 6 in epoch 59 [aggregation then communication] ---
+--- client 7 in epoch 59 [aggregation then communication] ---
+--- client 8 in epoch 59 [aggregation then communication] ---
+--- client 9 in epoch 59 [aggregation then communication] ---
+--- global epoch 59: global acc = 89.29% ---
+--- local epoch 59: local acc = [C0:94.26%, C1:94.87%, C2:94.36%, C3:94.33%, C4:94.39%, C5:97.07%, C6:95.37%, C7:93.93%, C8:94.51%, C9:95.08%] ---
+
+--- global epoch 60/60 ---
+--- At epoch 60, learning rate decays to 0.001518 ---
+--- client 0 in epoch 60 [aggregation then communication] ---
+--- client 1 in epoch 60 [aggregation then communication] ---
+--- client 2 in epoch 60 [aggregation then communication] ---
+--- client 3 in epoch 60 [aggregation then communication] ---
+--- client 4 in epoch 60 [aggregation then communication] ---
+--- client 5 in epoch 60 [aggregation then communication] ---
+--- client 6 in epoch 60 [aggregation then communication] ---
+--- client 7 in epoch 60 [aggregation then communication] ---
+--- client 8 in epoch 60 [aggregation then communication] ---
+--- client 9 in epoch 60 [aggregation then communication] ---
+--- global epoch 60: global acc = 89.06% ---
+--- local epoch 60: local acc = [C0:94.12%, C1:94.95%, C2:94.33%, C3:94.47%, C4:94.79%, C5:95.06%, C6:95.04%, C7:93.87%, C8:94.62%, C9:95.13%] ---
+Total runtime: 998.90s (0:16:38)
+
+ saving results
+results save in C:\Users\Kong\Desktop\ɳɺ\decentralized_federated_learning-master\decentralized_federated_learning-master\res\clients_10-epochs_2-20250919_014522.json
