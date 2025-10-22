@@ -27,5 +27,11 @@ Heatmap:
 top5_convergence_curves:
 <img width="1400" height="800" alt="top_5_convergence_curves" src="https://github.com/user-attachments/assets/9b178484-730f-4279-baf4-f1c7bd30c6a6" />
 
+max_round：少数跑满epoch，多数在小于60处达到max acc
+
+time:
+<img width="2400" height="700" alt="runtime_analysis_plots" src="https://github.com/user-attachments/assets/3e94cb85-7466-4489-9baf-6791f51caeef" />
+
+
 
 总的来说，lr,local_epochs_bs呈现了明显趋势，在所有场景下存在一个最优解，batch_select和lr_decay_beta趋势相对不是很明显
