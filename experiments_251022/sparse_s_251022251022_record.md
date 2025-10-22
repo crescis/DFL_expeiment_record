@@ -21,4 +21,7 @@ BS_LIST: bs=32时效果更好
 LR_DECAY_BETA_LIST: 差别较小，目前0.98时更好
 <img width="1800" height="1400" alt="lr_decay_beta_hyperparameter_relationships" src="https://github.com/user-attachments/assets/a9724d65-5d3b-471d-8897-3b6c9898adde" />
 
+Heatmap:
+<img width="2000" height="1400" alt="heatmap_strategy_pairs" src="https://github.com/user-attachments/assets/fda27e19-8de0-4d1c-81c5-07ef11d26a6d" />
+
 总的来说，lr,local_epochs_bs呈现了明显趋势，在所有场景下存在一个最优解，batch_select和lr_decay_beta趋势相对不是很明显
