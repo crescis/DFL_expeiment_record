@@ -24,4 +24,8 @@ LR_DECAY_BETA_LIST: 差别较小，目前0.98时更好
 Heatmap:
 <img width="2000" height="1400" alt="heatmap_strategy_pairs" src="https://github.com/user-attachments/assets/fda27e19-8de0-4d1c-81c5-07ef11d26a6d" />
 
+top5_convergence_curves:
+<img width="1400" height="800" alt="top_5_convergence_curves" src="https://github.com/user-attachments/assets/9b178484-730f-4279-baf4-f1c7bd30c6a6" />
+
+
 总的来说，lr,local_epochs_bs呈现了明显趋势，在所有场景下存在一个最优解，batch_select和lr_decay_beta趋势相对不是很明显
